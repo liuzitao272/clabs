@@ -10,5 +10,5 @@ int main()
      }
      printf("a=%d\n",b);
      printf("b=%u",c);
-     return 0;
+     return 0; 
 }
