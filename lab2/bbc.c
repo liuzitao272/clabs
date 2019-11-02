@@ -12,4 +12,3 @@ int main()
      printf("b=%u",c);
      return 0; 
 }
-
