@@ -1,6 +1,4 @@
-
-
- #include <stdio.h>
+#include <stdio.h>
 int main()
 {
      unsigned int a=1;
@@ -14,5 +12,3 @@ int main()
      printf("b=%u",c);
      return 0;
 }
-
-
