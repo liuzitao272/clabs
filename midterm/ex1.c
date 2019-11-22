@@ -19,4 +19,5 @@ main()
          }
      }
      printf("the number of word is=%d",nw);
-}
+} 
+
