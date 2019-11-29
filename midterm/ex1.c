@@ -11,7 +11,7 @@ main()
      getchar(ch);
      while(ch[i]!="\0"){
          ++i;
-         if(ch[i]==''||ch[i]=='/n'||ch[]=='\t')
+         if(ch[i]==' '||ch[i]=='\n'||ch[]=='\t')
          state=OUT;
          else if(state==OUT){
              state=IN;
