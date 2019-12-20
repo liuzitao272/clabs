@@ -2,19 +2,20 @@
 #include<stdlib.h>
 int main(int argc, char *argv[])
 {
-double a[5];
-int m=0;
-for(m=0;m<5;m++)
+int a[100];
+int m=1;
+int x=0;
+for(m=1;m<argc;m++,x++)
 {
-     a[m]=atof(argv[m+1]);
+     a[x]=atof(argv[m]);
 }
     int i ;
-    double min=a[0];
-     for(i=1;i<5;i++)
+    int min=a[0];
+     for(i=0;i<argc;i++)
      {
 if(a[i]<min){
 min=a[i];
  }
      }
-printf("%1.1f",min);
+printf("%d\n",min);
 }
